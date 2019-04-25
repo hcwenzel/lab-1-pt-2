@@ -50,8 +50,7 @@ main {
     padding-left: 20px;
 }
 
-
-
+/* For tablet */
 @media only screen and (min-width: 768px) {
     body {
         margin: 0;
@@ -96,7 +95,13 @@ main {
     }
 
     .chirpus-content {
-        width: 45%;
+        width: 80%;
+    }
+
+/* For desktop */
+@media only screen and (min-width: 992px) {
+    .chirpus-content {
+        width: 55%;
     }
 
     .circles {
